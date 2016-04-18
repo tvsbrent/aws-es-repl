@@ -1,0 +1,22 @@
+{
+  "name": "aws-es-repl",
+  "version": "0.0.1",
+  "description": "An Elasticsearch REPL utility, specifically for AWS managed clusters.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brent Schmidt",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.3.3",
+    "bluebird": "^3.3.5",
+    "elasticsearch": "^11.0.1",
+    "http-aws-es": "git+https://github.com/TheDeveloper/http-aws-es.git"
+  },
+  "devDependencies": {
+    "eslint": "^2.8.0",
+    "eslint-config-airbnb": "^7.0.0",
+    "eslint-plugin-jsx-a11y": "^0.6.2"
+  }
+}
